@@ -1,0 +1,161 @@
+:root {
+    --blue: #2874f0;
+    --white: #ffffff;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.container {
+    background-color: var(--blue);
+    height: 55px;
+    width: 100vw;
+    display: flex;
+    align-items:  center;
+ min-width: 1024px;
+
+
+ 
+}
+#flipkImg {
+    height: 45px;
+    margin-left: 13vw;
+}
+.inputBorder {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 0.7vw;
+    height: 35px;
+    max-width: 1300px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 2px;
+    
+}
+.inputBorder #searchIcon {
+    color: var(--blue);
+    margin-right: 10px;
+    transform: scale(1.2, 1.2);
+   
+   
+}
+.input1 {
+    height: 35px;
+    width: 400px;
+    margin: 15px;
+    border: 0;
+    outline: 0;
+}
+.LoginBtnBorder {
+    width: 115px;
+    height: 32px;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 4vw;
+  
+    border-radius: 2px;
+  
+
+}
+.loginBtn {
+    color: #2874f0;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* have to find a way to it without margin means all center to div equallly proportionalised*/
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.navTxt {
+    display: flex;
+    align-items: center;
+}
+
+ #Moretxt {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    margin-left: 3vw;
+}
+ #downwardIcon {
+    margin-left: 6px;
+    color: white;
+}
+/* .navTxt .cart {
+
+}
+.navTxt .more {
+ 
+
+
+} */
+ #shoppingCart {
+transform: scale(1.2, 1.2);
+margin-left: 4vw;
+
+
+color: white;
+
+}
+ #Carttxt {
+font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    margin-left: 5px;
+
+    margin-right: 13vw;
+ 
+}
+.backgroundPage {
+background-color: grey;
+}
+/*Nav Styles End*/
+
+.productCategories {
+background-color: white;
+min-width: 1024px;
+height: 90px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+display: flex;
+justify-content: space-around;
+}
+.catImg {
+    background-color: #2874f0;
+    height: 35px;
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.festival {
+    background-color: #2874f0;
+    min-width: 1024px;
+height: 155px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+display: flex;
+margin: 7px;
+}
+@keyframes blackWhite {  
+    0% { background-color: orange; }
+    50% { background-color: green; }
+    51% { background-color: yellow; }
+    100% { background-color: darkblue; }
+  }
+.offers {
+    background-color: orange;
+    height: 220px;
+    min-width: 1024px;
+    margin: 7px;
+    animation-name: blackWhite;  
+    animation-iteration-count: infinite;  
+    animation-duration: 8s; 
+    transition: linear;
+}
